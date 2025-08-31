@@ -1,0 +1,162 @@
+Prompt for AI Website Builder:
+
+Objective: Create a clean, professional, and modern single-page portfolio website for Devesh Kumar Gola, an AI Engineer and counseling psychology enthusiast. The website should be easy to navigate, visually appealing, and effectively showcase his diverse skills, experiences, and projects. The design should be responsive and look great on all devices.
+
+Website Structure and Content:
+
+1. Header & Navigation Bar:
+
+Logo/Name: "Devesh Kumar Gola" in a clean, professional font.
+
+Navigation Links: Home, About, Experience, Projects, Publications, Resume, Contact.
+
+The navigation bar should be fixed at the top and highlight the current section as the user scrolls.
+
+2. Home/Hero Section:
+
+Headline: "Devesh Kumar Gola"
+
+Subheading: "AI Engineer | Counseling Psychology Enthusiast"
+
+Profile Picture: Use the professional headshot provided.
+
+Introduction:
+
+"I'm an AI engineer and counselling psychology enthusiast based in India. Currently working with The University of Texas at Austin and the University of Illinois Urbana-Champaign. Previously worked with IIT Kanpur, BARC, BITS Pilani, UCD, IIT Kharagpur, Dartmouth, and Life Fundies. I help teams and individuals turn ideas—technical or personal—into real impact."
+
+3. About Me / My Journey Section:
+
+Heading: "My Journey"
+
+Content:
+
+"In my first semester of college, I began with a phase of self-exploration. That's when I picked up C language and started pushing my first lines of code on GitHub—tiny steps that gave me the thrill of building something real.
+
+By the second semester, I felt drawn to two different worlds. In January, I joined a counseling course, and in March, I dived into machine learning. It was the start of a dual journey—one in understanding people, and the other in understanding data.
+
+The summer of 2024 gave me my first taste of research through an AI/ML internship at DTU. That July, I went deeper into personality development, and in August, I explored modern applied psychology. By October, I was studying deep learning, balancing algorithms with insights into the human mind.
+
+The beginning of 2025 was a turning point. In January, I studied the mathematics of machine learning, and in February, I completed courses on LLMs, GenAI, and LangChain. Around that time, I also spent four months cold-emailing, which finally opened doors to research internships with organizations like BITS Pilani, BARC, IIT Kanpur, UCD, Dartmouth, Princeton, Texas, and Waterloo.
+
+At the same time, my journey in psychology deepened with internships at IIT Kharagpur, Dartmouth, Illinois, and Atmashakti. I also explored darker layers of the mind through a Dark Psychology course, and built resilience and clarity through a Personality Transformation program.
+
+Today, I'm running my own startup—Life Fundies—helping students and young professionals navigate life with more clarity and confidence. Alongside, I continue contributing to open source on GitHub, freelancing on Upwork, and exploring the blend of AI + Psychology that defines my path."
+
+4. Expertise Section:
+
+Heading: "Expertise"
+
+List of Skills (use icons for each if possible):
+
+Machine Learning
+
+Deep Learning
+
+Agentic AI
+
+Psychology
+
+Protocol Design
+
+Writing
+
+Research
+
+5. Work Experience Section:
+
+Heading: "Work Experience"
+
+Layout: A grid of logos of the institutions and companies worked with.
+
+Logos to include: DTU, LifeFundies, BITS Pilani, Waterloo, IIT Kanpur, UCD, BARC, Dartmouth, Princeton, UTexas, IIT Kharagpur, Illinois, Atmashakti, Upwork, GitHub.
+
+6. Projects & Achievements Section:
+
+Heading: "Projects & Achievements"
+
+Layout: Use a card-based layout for each item.
+
+Project 1:
+
+Title: Competitive Programming
+
+Description: "Solved 500+ DSA problems across platforms, including 210 on LeetCode and 206 on CodeStudio and achieved Rank 2 in my college in CodeStudio."
+
+Image: Include the Codolio card screenshot.
+
+Project 2:
+
+Title: 10-Point Self-Exploration Protocol
+
+Description: "Designed and practiced a 10-Point Self-Exploration Protocol, reviewed with students, and documented through an autoethnographic research paper using journaling and self-reflection."
+
+Image: A preview of the protocol document.
+
+Project 3:
+
+Title: Global Possibility Network
+
+Description: "Connected with the Global Possibility Network at the University of Pennsylvania (Ivy League) for interdisciplinary exchange and personal development initiatives."
+
+Image: The Penn GSE logo.
+
+7. Research Papers Section:
+
+Heading: "Research Papers"
+
+Layout: A grid or card layout showing a preview of each paper.
+
+Paper 1: "The Lived Experience of Managing Academic Stress: A Qualitative Study on the Effectiveness of Rational Emotive Behavior Therapy (REBT) for Indian College Students"
+
+Paper 2: "From Autopilot to Agency: An Autoethnographic Inquiry into Structured Self-Exploration"
+
+Paper 3: "Carbon Prompting: An Empirical Analysis of the Environmental and Performance Trade-offs in LLM-Based Requirement Classification"
+
+Action: Each card should have a "Read More" button that links to the full paper (or a modal window with more details).
+
+8. Resume / CV Section:
+
+Heading: "Resume / CV"
+
+Layout: Display previews of the three different resumes side-by-side.
+
+Resume 1: AI/ML Engineer Resume
+
+Resume 2: Psychology Resume
+
+Resume 3: General CV
+
+Action: Each preview should have a "View" or "Download" button.
+
+9. Recommendations Section:
+
+Heading: "Recommendation Letters"
+
+Layout: Display previews of the recommendation letters.
+
+Letter 1: University College Dublin
+
+Letter 2: Dartmouth College
+
+Letter 3: Bhabha Atomic Research Center
+
+Action: Each preview should have a "View More" button.
+
+10. Contact Section:
+
+Heading: "Get in Touch"
+
+Content: A simple contact form with fields for Name, Email, and Message.
+
+Social Links: Include icons for LinkedIn, GitHub, and any other professional profiles.
+
+Design & Styling:
+
+Color Palette: Use a professional and modern color scheme. A palette of dark teal, light gray, and white, similar to the provided screenshots, would work well.
+
+Typography: Use a clean and readable serif font for headings (like the one in your screenshots) and a sans-serif font for the body text for good readability.
+
+Animations: Use subtle animations on scroll and hover to make the website feel dynamic and engaging.
+
+Layout: Use plenty of white space to ensure the content is easy to read and the design doesn't feel cluttered.
+
