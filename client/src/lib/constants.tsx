@@ -10,11 +10,11 @@ export const NAVIGATION_ITEMS = [
 ] as const;
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://linkedin.com/in/deveshkumargola",
-  github: "https://github.com/deveshkumargola",
-  twitter: "https://twitter.com/deveshkumargola",
+  linkedin: "https://in.linkedin.com/in/devesh-kumar-gola-450a0436b",
+  github: "https://github.com/DeveshKumar8423",
+  twitter: "https://x.com/DeveshKuma8423",
   email: "mailto:devesh.gola@example.com",
-  upwork: "https://upwork.com/freelancers/deveshkumargola",
+  upwork: "https://www.upwork.com/freelancers/~01f0be2e737034a738",
 } as const;
 
 export const ORGANIZATIONS = [
