@@ -28,6 +28,13 @@ export default function RecommendationsSection() {
       icon: University,
       preview: "Recommendation letter from University College Dublin.",
       pdf: "https://drive.google.com/file/d/1SZRvqGyTwVOgeSwbRIUiRvjwUru6h-nT/view?usp=share_link"
+    },
+    {
+      institution: "BITS Pilani",
+      category: "Recommendation Letter",
+      icon: GraduationCap,
+      preview: "Recommendation letter from BITS Pilani.",
+      pdf: "https://drive.google.com/file/d/1Z9mnCa2fEu0FHg7BFuB_va6lBqHVSeju/view?usp=share_link"
     }
   ];
 
@@ -39,7 +46,7 @@ export default function RecommendationsSection() {
           subtitle="Endorsements from leading academic institutions and research organizations"
         />
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-4 gap-8">
           {recommendations.map((rec, index) => {
             const Icon = rec.icon;
             return (

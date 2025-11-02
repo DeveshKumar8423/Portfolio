@@ -1,42 +1,59 @@
 import SectionHeading from "@/components/ui/section-heading";
 import { Award, Brain, BookOpen, Bot, Heart, Users, Lightbulb, CheckCircle } from "lucide-react";
 
+// AI & Data Science (5 Udemy + 3 Oracle)
 const aiCerts = [
+  // Udemy (5)
   {
-    title: "Mathematics: Basics to Advanced for Data Science and GenAI",
-    description: "Built strong mathematical foundations for advanced data science and generative AI applications.",
+    title: "Mathematics for Data Science & GenAI (Udemy)",
+    description: "Linear algebra, calculus, probability for modern AI and GenAI foundations.",
     icon: Brain,
     color: "text-primary",
-    bg: "bg-primary/10"
+    bg: "bg-primary/10",
   },
   {
-    title: "Complete Generative AI Course with LangChain and Hugging Face",
-    description: "Developed skills in building advanced generative AI pipelines using LangChain and Hugging Face Transformers.",
+    title: "Generative AI with LangChain & HF (Udemy)",
+    description: "Built end‑to‑end GenAI apps using LangChain, Hugging Face, and vector stores.",
     icon: Bot,
     color: "text-accent",
-    bg: "bg-accent/10"
+    bg: "bg-accent/10",
   },
   {
-    title: "Data Analytics Masters – From Basics to Advanced",
-    description: "Covered complete data analytics workflows including data preprocessing, visualization, and predictive modeling.",
+    title: "Data Analytics Masters (Udemy)",
+    description: "Data wrangling, visualization, dashboards, and predictive analytics workflows.",
     icon: Lightbulb,
     color: "text-primary",
-    bg: "bg-primary/10"
+    bg: "bg-primary/10",
   },
   {
-    title: "PyTorch for Deep Learning Bootcamp",
-    description: "Gained practical skills in building and optimizing deep learning models with PyTorch.",
+    title: "PyTorch Deep Learning Bootcamp (Udemy)",
+    description: "CNNs, RNNs, training loops, and optimization with real projects in PyTorch.",
     icon: BookOpen,
     color: "text-accent",
-    bg: "bg-accent/10"
+    bg: "bg-accent/10",
   },
   {
-    title: "Machine Learning A-Z: AI and Python",
-    description: "Completed comprehensive training in machine learning concepts, model deployment, and Python workflows.",
+    title: "Machine Learning A‑Z with Python (Udemy)",
+    description: "Supervised/unsupervised ML, model evaluation, and deployment best practices.",
     icon: Award,
     color: "text-primary",
-    bg: "bg-primary/10"
-  }
+    bg: "bg-primary/10",
+  },
+  // Oracle (3)
+  {
+    title: "Oracle AI Foundations",
+    description: "Core AI concepts and responsible AI practices within Oracle cloud ecosystem.",
+    icon: Brain,
+    color: "text-accent",
+    bg: "bg-accent/10",
+  },
+  {
+    title: "Oracle Data Science Fundamentals",
+    description: "Data science lifecycle, feature engineering, and MLOps on OCI tooling.",
+    icon: Lightbulb,
+    color: "text-primary",
+    bg: "bg-primary/10",
+  },
 ];
 
 const psychCerts = [

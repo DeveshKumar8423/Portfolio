@@ -65,11 +65,7 @@ export default function AboutSection() {
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed">
-                  Today, I'm running my own startup—Life Fundies—helping students
-                  and young professionals navigate life with more clarity and
-                  confidence. Alongside, I continue contributing to open source on
-                  GitHub, freelancing on Upwork, and exploring the blend of AI +
-                  Psychology that defines my path.
+                  Today, I lead two research labs that shape my path: DEV-ARC AI Research Center and ClarityBridge Psychology Lab—advancing AI, NLP, and human-centered protocols through open, collaborative science.
                 </p>
               </div>
             </div>

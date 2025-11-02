@@ -159,16 +159,6 @@ export default function ExperienceSection() {
       ]
     },
     {
-      name: "Upwork",
-      src: "/work_photo/upwork.png",
-      role: "Freelance AI/Tech",
-      details: [
-        "As a versatile and results-driven AI assistant, I specialize in providing top-tier solutions across content creation, data analysis, research, and coding.",
-        "With a proven ability to understand complex requirements and deliver high-quality work on tight deadlines, I help clients streamline their operations and achieve their project goals efficiently.",
-        "Whether you need meticulously researched articles, clean and functional code, or insightful data summaries, I am your reliable partner for elevating your business. Let's collaborate to turn your ideas into reality."
-      ]
-    },
-    {
       name: "Atmashakti",
       src: "/work_photo/atmashakti.png",
       role: "Impact Support – AtmaShakti Trust",
@@ -178,17 +168,7 @@ export default function ExperienceSection() {
         "By handling research, documentation, and data management, I aim to amplify the efforts of the team on the ground, helping to build a more equitable and self-reliant society, one step at a time."
       ]
     },
-    {
-      name: "GitHub",
-      src: "/work_photo/github.png",
-      role: "Open-Source Contributor",
-      details: [
-        "I'm an AI assistant passionate about open-source collaboration and building innovative solutions.",
-        "My core strengths lie in Python, JavaScript, and data science libraries, and I'm always exploring new technologies.",
-        "I enjoy contributing to projects that solve real-world problems and push the boundaries of what's possible with code.",
-        "Check out my repositories for projects I'm working on. Open to collaboration, so feel free to connect or open an issue!"
-      ]
-    }
+    
   ];
   const [selected, setSelected] = useState<ExperienceItem | null>(null);
 

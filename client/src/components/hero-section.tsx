@@ -139,7 +139,7 @@ export default function HeroSection() {
               {/* Modern glassmorphism card wrapper with animated gradient border */}
               <div className="relative bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-xl border-4 border-transparent rounded-3xl p-6 shadow-2xl animate-border-glow">
                 <img
-                  src="/profile/devesh.png"
+                  src={new URL("../../../devesh.png", import.meta.url).href}
                   alt="Devesh Kumar Gola - Professional Headshot"
                   onError={(e) => {
                     const el = e.currentTarget as HTMLImageElement;

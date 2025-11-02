@@ -171,66 +171,18 @@ export default function HeroBgSnake() {
     };
 
     const step = () => {
-      const now = performance.now();
-      t += 1 / 60;
       ctx.clearRect(0, 0, width, height);
-      // Grid layer
+      // Grid layer only
       ctx.drawImage(gridCanvas, 0, 0, width * dpr, height * dpr, 0, 0, width, height);
-
-      // Light film for calmness
+      // Subtle overlay
       ctx.fillStyle = colors.bgFade;
       ctx.fillRect(0, 0, width, height);
-
-      // Draw foods as blue squares snapped to grid
-      const size = 7;
-      ctx.fillStyle = colors.food;
-      for (const f of foods) {
-        ctx.fillRect(f.x - size, f.y - size, size * 2, size * 2);
-      }
-
-      // Time to take a new grid step
-      if (now - lastStep > stepDuration) {
-        lastStep = now;
-        chooseNextCell();
-      }
-
-      // Interpolate position between prevCenter and nextCenter
-      let p = (now - animStart) / stepDuration;
-      if (p > 1.2) p = 1; // safety clamp in case a frame is dropped
-      const head = { x: prevCenter.x + (nextCenter.x - prevCenter.x) * p, y: prevCenter.y + (nextCenter.y - prevCenter.y) * p };
-      tail.push(head);
-      while (tail.length > Math.min(maxTail, snakeLength)) tail.shift();
-
-      // If reached the cell center, check for eating
-      if (p >= 1 && Math.hypot(nextCenter.x - target.x, nextCenter.y - target.y) < 1) {
-        const idx = foods.findIndex((f) => Math.abs(f.x - target.x) < 1 && Math.abs(f.y - target.y) < 1);
-        if (idx >= 0) foods.splice(idx, 1);
-        foods.push(randCell());
-        snakeLength = Math.min(maxTail, snakeLength + 6);
-        pickTarget();
-      }
-
-      // Draw snake as grid-aligned rectangles
-      const segSize = Math.max(12, Math.min(18, Math.floor(cell * 0.6)));
-      for (let i = 0; i < tail.length; i++) {
-        const s = tail[i];
-        const k = i / tail.length;
-        const w = segSize * (0.8 + 0.4 * k);
-        const h = segSize * 0.7;
-        // glow for visibility on both themes
-        ctx.fillStyle = colors.snake;
-        ctx.shadowColor = colors.snake;
-        ctx.shadowBlur = 6;
-        ctx.fillRect(s.x - w / 2, s.y - h / 2, w, h);
-        ctx.shadowBlur = 0;
-      }
-
-      raf = requestAnimationFrame(step);
     };
 
     const handleTheme = () => {
       colors = palette();
       resize();
+      step();
     };
 
     const obs = new MutationObserver((m) => {
@@ -240,14 +192,11 @@ export default function HeroBgSnake() {
     });
     obs.observe(document.documentElement, { attributes: true });
 
-    const onResize = () => { resize(); recalcGrid(); };
+    const onResize = () => { resize(); step(); };
     window.addEventListener("resize", onResize);
 
     // Init
     resize();
-    recalcGrid();
-    populateFoods();
-    pickTarget();
     step();
 
     return () => {

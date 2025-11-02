@@ -15,10 +15,10 @@ export default function ResumeSection() {
       icon: Bot,
       color: "text-primary",
       bg: "bg-primary/10",
-      pdf: "https://drive.google.com/file/d/1pgrbkFQg1MiVwebls50NgN-_h4lzXtLB/view?usp=share_link",
+      pdf: "https://drive.google.com/file/d/1xCFvJdQGc84UBpgFa6glrrvpbVNRnJFC/view?usp=share_link",
       preview: {
         sections: [
-          "AI research at BITS Pilani, Upwork, and more.",
+          "AI research at BITS Pilani, IIT Kanpur, and more.",
           "Deep learning, NLP, and computer vision projects.",
           "Publications and open-source contributions."
         ]
@@ -31,10 +31,10 @@ export default function ResumeSection() {
       icon: Heart,
       color: "text-accent",
       bg: "bg-accent/10",
-      pdf: "https://drive.google.com/file/d/1_t2CHFhkmC9m4ePzrRhZbS4zFcn1HL3p/view?usp=share_link",
+      pdf: "https://drive.google.com/file/d/189iuJWMxJW9qnylIhio_Cgy4zMtnboCj/view?usp=sharing",
       preview: {
         sections: [
-          "Research at IIT Kanpur, UCD, and more.",
+          "Research at IIT Kharagpur, UCD, and more.",
           "Cognitive science, behavioral studies, and publications.",
           "Workshops and conferences attended."
         ]
@@ -47,7 +47,7 @@ export default function ResumeSection() {
       icon: GraduationCap,
       color: "text-primary",
       bg: "bg-primary/10",
-      pdf: "https://drive.google.com/file/d/1C7qeDbk-dHqgDoThTg5UOSXDLCUPxU_j/view?usp=share_link",
+      pdf: "https://drive.google.com/file/d/1ZFfZwvMC1TYooi0s9-oQTxYEwSJ90huy/view?usp=share_link",
       preview: {
         sections: [
           "Academic background and degrees.",

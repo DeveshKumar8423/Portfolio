@@ -15,6 +15,7 @@ import AchievementsSection from "@/components/achievements-section";
 import AchievementDSA from "@/components/achievement-dsa";
 import AchievementProtocol from "@/components/achievement-protocol";
 import AchievementPenn from "@/components/achievement-penn";
+import LabsSection from "@/components/labs-section";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
         <AchievementDSA />
         <AchievementProtocol />
         <AchievementPenn />
+        <LabsSection />
         <ProjectsSection />
         <ResumeSection />
   <RecommendationsSection />
