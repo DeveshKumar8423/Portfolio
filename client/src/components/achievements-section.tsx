@@ -32,10 +32,17 @@ export default function AchievementsSection() {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary/3 rounded-full blur-2xl animate-float" style={{ animationDelay: '4s' }}></div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-  {/* Achievements heading removed as requested */}
+        {/* Achievements heading styled to match 'My Research Labs' */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold font-serif tracking-tight">Achievements</h2>
+          <div className="mx-auto mt-4 h-[2px] w-24 bg-gradient-to-r from-transparent via-primary to-transparent" />
+        </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {items.map((item, i) => {
             const Icon = item.icon;
+            const isDSATypographyMatch =
+              item.title.includes("Self‑Exploration") ||
+              item.title.includes("Global Possibility Network");
             return (
               <div
                 key={i}
@@ -48,7 +55,14 @@ export default function AchievementsSection() {
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {item.title}
                 </h3>
-                <p className="text-muted-foreground text-base leading-7">
+                <p
+                  className={
+                    `text-muted-foreground ` +
+                    (isDSATypographyMatch
+                      ? "font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4 sm:mb-6"
+                      : "text-lg mb-4")
+                  }
+                >
                   {item.body}
                 </p>
               </div>
