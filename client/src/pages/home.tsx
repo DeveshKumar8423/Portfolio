@@ -13,6 +13,8 @@ import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import AchievementsSection from "@/components/achievements-section";
 import AchievementDSA from "@/components/achievement-dsa";
+import AchievementCyberCup from "@/components/achievement-cybercup";
+import AchievementHacktoberfest from "@/components/achievement-hacktoberfest";
 import AchievementProtocol from "@/components/achievement-protocol";
 import AchievementPenn from "@/components/achievement-penn";
 import LabsSection from "@/components/labs-section";
@@ -29,6 +31,8 @@ export default function Home() {
   <SkillsSection />
         <ExperienceSection />
         <AchievementDSA />
+        <AchievementCyberCup />
+        <AchievementHacktoberfest />
         <AchievementProtocol />
         <AchievementPenn />
         <LabsSection />
