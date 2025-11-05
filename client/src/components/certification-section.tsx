@@ -1,9 +1,8 @@
 import SectionHeading from "@/components/ui/section-heading";
-import { Award, Brain, BookOpen, Bot, Heart, Users, Lightbulb, CheckCircle } from "lucide-react";
+import { Award, Brain, BookOpen, Bot, Heart, Users, Lightbulb, CheckCircle, Database, Cloud } from "lucide-react";
 
-// AI & Data Science (5 Udemy + 3 Oracle)
+// AI & Data Science (5 Udemy)
 const aiCerts = [
-  // Udemy (5)
   {
     title: "Mathematics for Data Science & GenAI (Udemy)",
     description: "Linear algebra, calculus, probability for modern AI and GenAI foundations.",
@@ -39,20 +38,37 @@ const aiCerts = [
     color: "text-primary",
     bg: "bg-primary/10",
   },
-  // Oracle (3)
+];
+
+// Oracle Certificates (4)
+const oracleCerts = [
   {
-    title: "Oracle AI Foundations",
-    description: "Core AI concepts and responsible AI practices within Oracle cloud ecosystem.",
+    title: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    description: "Fundamental concepts of AI and ML with practical application within Oracle Cloud Infrastructure. Ideal for beginners entering AI/ML.",
     icon: Brain,
+    color: "text-primary",
+    bg: "bg-primary/10",
+  },
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+    description: "Expertise in Large Language Models (LLMs), OCI Generative AI Service, Retrieval-Augmented Generation, Semantic Search, Vector databases, and LangChain.",
+    icon: Bot,
     color: "text-accent",
     bg: "bg-accent/10",
   },
   {
-    title: "Oracle Data Science Fundamentals",
-    description: "Data science lifecycle, feature engineering, and MLOps on OCI tooling.",
-    icon: Lightbulb,
+    title: "Oracle AI Vector Search Certified Professional",
+    description: "Master Oracle AI Database capabilities for vector data, semantic search, embeddings, and building RAG applications using PL/SQL and Python.",
+    icon: Database,
     color: "text-primary",
     bg: "bg-primary/10",
+  },
+  {
+    title: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+    description: "Expertise in identifying OCI services for ML solutions, implementing machine learning best practices, and managing complete ML model lifecycle.",
+    icon: Cloud,
+    color: "text-accent",
+    bg: "bg-accent/10",
   },
 ];
 
@@ -100,7 +116,7 @@ export default function CertificationSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionHeading
           title="Certifications"
-          subtitle="Recognized training in AI, Data Science, and Psychology"
+          subtitle="Recognized training in AI, Data Science, Oracle Cloud, and Psychology"
         />
         <div className="space-y-12">
           {/* AI Certifications Row */}
@@ -108,6 +124,27 @@ export default function CertificationSection() {
             <h3 className="text-xl font-bold mb-6 text-primary text-center">AI & Data Science</h3>
             <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch">
               {aiCerts.map((cert, i) => {
+                const Icon = cert.icon;
+                return (
+                  <div
+                    key={cert.title}
+                    className="group modern-card p-6 rounded-2xl card-hover flex flex-col items-center text-center w-full md:w-64"
+                  >
+                    <div className={`w-14 h-14 ${cert.bg} rounded-xl flex items-center justify-center mb-4`}>
+                      <Icon className={`${cert.color} h-7 w-7`} />
+                    </div>
+                    <h4 className="text-lg font-semibold mb-2">{cert.title}</h4>
+                    <p className="text-sm text-muted-foreground">{cert.description}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+          {/* Oracle Certifications Row */}
+          <div>
+            <h3 className="text-xl font-bold mb-6 text-accent text-center">Oracle Certificates</h3>
+            <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch flex-wrap">
+              {oracleCerts.map((cert, i) => {
                 const Icon = cert.icon;
                 return (
                   <div
