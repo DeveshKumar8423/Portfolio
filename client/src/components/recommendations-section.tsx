@@ -54,7 +54,7 @@ export default function RecommendationsSection() {
           subtitle="Endorsements from leading academic institutions and research organizations"
         />
 
-        <div className="grid lg:grid-cols-4 gap-8">
+        <div className="grid lg:grid-cols-5 gap-8">
           {recommendations.map((rec, index) => {
             const Icon = rec.icon;
             return (
