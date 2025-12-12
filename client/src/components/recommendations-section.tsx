@@ -36,6 +36,14 @@ export default function RecommendationsSection() {
       preview: "Recommendation letter from BITS Pilani.",
       pdf: "https://drive.google.com/file/d/1Z9mnCa2fEu0FHg7BFuB_va6lBqHVSeju/view?usp=share_link"
     }
+    ,
+    {
+      institution: "The University of Texas at Austin",
+      category: "Recommendation Letter",
+      icon: University,
+      preview: "Recommendation letter from The University of Texas at Austin.",
+      pdf: "https://drive.google.com/file/d/1Fcm6j86knP0y5O5Hgj28ib63Hhi7pHmR/view?usp=share_link"
+    }
   ];
 
   return (

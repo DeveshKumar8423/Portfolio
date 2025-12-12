@@ -15,12 +15,12 @@ export default function ResumeSection() {
       icon: Bot,
       color: "text-primary",
       bg: "bg-primary/10",
-      pdf: "https://drive.google.com/file/d/1xCFvJdQGc84UBpgFa6glrrvpbVNRnJFC/view?usp=share_link",
+      pdf: "https://drive.google.com/file/d/1ZFfZwvMC1TYooi0s9-oQTxYEwSJ90huy/view?usp=share_link",
       preview: {
         sections: [
           "AI research at BITS Pilani, IIT Kanpur, and more.",
           "Deep learning, NLP, and computer vision projects.",
-          "Publications and open-source contributions."
+          "Publications and research outputs."
         ]
       }
     },
@@ -31,28 +31,12 @@ export default function ResumeSection() {
       icon: Heart,
       color: "text-accent",
       bg: "bg-accent/10",
-      pdf: "https://drive.google.com/file/d/189iuJWMxJW9qnylIhio_Cgy4zMtnboCj/view?usp=sharing",
+      pdf: "https://drive.google.com/file/d/189iuJWMxJW9qnylIhio_Cgy4zMtnboCj/view?usp=share_link",
       preview: {
         sections: [
           "Research at IIT Kharagpur, UCD, and more.",
           "Cognitive science, behavioral studies, and publications.",
           "Workshops and conferences attended."
-        ]
-      }
-    },
-    {
-      title: "CV",
-      subtitle: "Curriculum Vitae",
-      description: "Comprehensive CV covering all academic and professional experience.",
-      icon: GraduationCap,
-      color: "text-primary",
-      bg: "bg-primary/10",
-      pdf: "https://drive.google.com/file/d/1ZFfZwvMC1TYooi0s9-oQTxYEwSJ90huy/view?usp=share_link",
-      preview: {
-        sections: [
-          "Academic background and degrees.",
-          "Professional experience and internships.",
-          "Skills, awards, and extracurriculars."
         ]
       }
     },
@@ -72,11 +56,11 @@ export default function ResumeSection() {
     <section id="resume" className="py-20 bg-muted">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          title="Resume / CV"
+          title="Resume"
           subtitle="Tailored resumes highlighting different aspects of my professional journey"
         />
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {resumes.map((resume, index) => {
             const Icon = resume.icon;
             return (
