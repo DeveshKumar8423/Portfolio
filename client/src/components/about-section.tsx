@@ -52,14 +52,12 @@ export default function AboutSection() {
                   completed courses on LLMs, GenAI, and LangChain. Around that
                   time, I also spent four months cold-emailing, which finally
                   opened doors to research internships with organizations like
-                  BITS Pilani, BARC, IIT Kanpur, UCD, Dartmouth, Princeton, Texas,
-                  and Waterloo.
+                  BITS Pilani, BARC, IIT Kanpur, UCD, Dartmouth, Texas, and Waterloo.
                 </p>
 
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   At the same time, my journey in psychology deepened with
-                  internships at IIT Kharagpur, Dartmouth, Illinois, and
-                  Atmashakti. I also explored darker layers of the mind through a
+                  internships at IIT Kharagpur, Dartmouth, and Atmashakti. I also explored darker layers of the mind through a
                   Dark Psychology course, and built resilience and clarity through
                   a Personality Transformation program.
                 </p>

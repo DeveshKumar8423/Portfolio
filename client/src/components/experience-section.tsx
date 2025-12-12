@@ -26,17 +26,6 @@ export default function ExperienceSection() {
       ]
     },
     {
-      name: "Illinois",
-      src: "/work_photo/illinois.png",
-      role: "Psychosocial Research Intern",
-      period: "Aug 2025 – Present (Remote)",
-      details: [
-        "Working on qualitative methods to study the role of collective and radical hope in contexts of elections, political violence, and historical oppression.",
-        "Exploring hope as both healing and a source of collective action among marginalized groups including caste, Kashmiri, and Northeast Indian youth.",
-        "Conducting initial meetings with the research team to frame methodological pathways, design qualitative instruments, and plan lexical and thematic analysis of discourse at both individual and group levels."
-      ]
-    },
-    {
       name: "BITS Pilani",
       src: "/work_photo/BITS.png",
       role: "ML Intern",
@@ -110,26 +99,11 @@ export default function ExperienceSection() {
       ]
     },
     {
-      name: "Princeton",
-      src: "/work_photo/Princeton.png",
-      role: "Project Contributor – Real-Time MindEye (Princeton University)",
-      period: "June 2025 – Present",
-      details: [
-        "Contributing to a cutting-edge neuroimaging initiative aimed at decoding visual perception from fMRI data in real time.",
-        "Replicating MindEye2 experiments using 3T MRI scans, refining GLM estimation pipelines, and adapting vision-language models for neural decoding workflows.",
-        "Supporting the development of methodologies that move toward real-time reconstruction of human visual experience."
-      ]
-    },
-    {
       name: "Dartmouth",
       src: "/work_photo/Dartmouth.png",
-      role: "Collaborator – HyperTools Project & Collaborative Resonance Volunteer",
+      role: "Collaborative Resonance Volunteer",
       period: "June 2025 – Present",
       details: [
-        "Contributing to the modernization of HyperTools, an open-source Python library for visualizing high-dimensional data.",
-        "Refactored core modules for compatibility with NumPy, pandas, matplotlib, and plotly.",
-        "Fixed API inconsistencies, added continuous integration pipelines, and improved documentation clarity.",
-        "Collaborating with Dartmouth’s Context Lab to sustain and expand the project for long-term research use.",
         "Participated in a volunteer initiative on mindset transformation, self-awareness, and emotional growth.",
         "Engaged in weekly reflective sessions on motivation, procrastination, and personal discipline.",
         "Designed and shared a 10-point self-exploration framework, collaborating with practitioners to co-create emotional intelligence and mindfulness practices."

@@ -54,8 +54,8 @@ export default function ExpertiseSection() {
     },
     {
       icon: Code,
-      title: "Open Source",
-      description: "Community-driven development and collaboration",
+      title: "Bioinformatics",
+      description: "Computational biology, genomic data analysis and pipelines",
       color: "text-accent",
       bg: "bg-accent/10",
     },

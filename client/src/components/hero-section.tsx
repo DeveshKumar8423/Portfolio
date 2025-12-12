@@ -46,7 +46,7 @@ export default function HeroSection() {
               <div className="inline-flex items-center px-4 py-2 rounded-full glass-effect mb-6 animate-fade-in">
                 <div className="w-2 h-2 bg-accent rounded-full mr-2 animate-pulse"></div>
                 <p className="text-accent font-medium tracking-wide text-sm">
-                  AI Engineer & Psychology Enthusiast
+                  AI Researcher
                 </p>
               </div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-serif text-gradient mb-4 leading-tight animate-gradient-x bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-text-glow">
@@ -54,18 +54,13 @@ export default function HeroSection() {
                 <span className="inline animate-fade-in text-accent" style={{ animationDelay: '0.2s', fontWeight: 700 }}>Gola</span>
               </h1>
               <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-8 leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
-                AI Engineer | Counseling Psychology Enthusiast
+                AI Researcher
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none animate-fade-in" style={{ animationDelay: '0.4s' }}>
               <p className="text-muted-foreground leading-relaxed">
-                I'm an AI engineer and counselling psychology enthusiast based
-                in India. Currently working with The University of Texas at
-                Austin and the University of Illinois Urbana-Champaign.
-                Previously worked with IIT Kanpur, BARC, BITS Pilani, UCD, IIT
-                Kharagpur, Dartmouth, and Life Fundies. I help teams and
-                individuals turn ideastechnical or personalinto real impact.
+                I'm an AI researcher and counselling psychology enthusiast based in India. Worked with The University of Texas at Austin, IIT Kanpur, BARC, BITS Pilani, UCD, IIT Kharagpur, Dartmouth, and Life Fundies. I help teams and individuals turn ideastechnical or personalinto real impact.
               </p>
             </div>
 
